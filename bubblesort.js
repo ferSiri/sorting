@@ -9,15 +9,13 @@ function bubbleSort (arr,pos=0) { // retorna arreglo de menor a mayor
         count--
     }
     return arr;
- }
+ };
  
  function swap (arr,pos) {
-    // if (!pos =)
     var aux = arr[pos+1]
     arr[pos+1] = arr[pos]
     arr[pos] = aux;
 
     return arr
- }
+};
  
- bubbleSort([4,9,5,1,8,3,2])
